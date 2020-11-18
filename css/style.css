@@ -1,0 +1,165 @@
+body{
+    background-color:rgba(12, 12, 12, 0.404);
+    margin:0px;
+    padding:0px;
+}
+.row{
+    margin-top: 10vh;
+   margin-left: 10vw;
+   margin-right: 10vw;
+    
+}
+.game{
+    background-image: linear-gradient(to bottom,blue,grey, white);
+    padding-top: 5vmax;
+    padding-bottom: 10vmax;
+}
+
+button{
+    margin-left: 25vw;
+    margin-right: 15vw;
+    font-size: 5vh;
+}
+
+input{
+    margin-left: 7vw;
+    margin-top: 7vw;
+    font-size: 5vw;
+}
+
+#winner{
+    margin-left: 7vw;
+    margin-top: 6vw;
+    font-size: 40px;
+    display:none;
+    color: white;
+    
+}
+
+.colder{
+    margin-left: 13vw;
+    margin-top: 6vw;
+    font-size: 40px;
+    display:none;
+    color:black;
+}
+
+.hot{
+    color:red;
+    text-shadow: 30px;
+
+}
+
+.cold {
+    color:aqua;
+    text-shadow: 30px;
+}
+
+
+/* responsiveness starts here */
+
+/* Normal desktop :1200px. */
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+ 
+  
+
+}
+
+
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+ button{
+     font-size: 3vh;
+ }
+}
+    
+
+
+/* Tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  
+    .row{
+        margin-top: 10vh;
+       margin-left: 5vw;
+       margin-right: 5vw;
+       
+        
+    }
+
+    .game{
+        background-image: linear-gradient(to bottom,blue,grey, white);
+        padding-top: 5vmax;
+        padding-right: 34vw;
+        padding-right: 34vw;
+        padding-bottom: 10vmax;
+    }
+    
+    button{
+        margin-left: 35vw;
+        font-size: 30px;
+    }
+    
+    input{
+        margin-left: 10vw;
+        margin-top: 7vw;
+        font-size: 40px;
+    }
+    
+    .hotcold{
+        margin-top: 120px;
+    }
+    #winner{
+        margin-left: 7vw;
+        margin-top: 6vw;
+        font-size: 40px;
+        display:none;
+        color: white;
+        
+    }
+    
+    .colder{
+        margin-left: 13vw;
+        margin-top: 6vw;
+        font-size: 40px;
+        display:none;
+        color:black;
+    }
+    
+    .hot{
+        color:red;
+        text-shadow: 30px;
+    
+    }
+}
+   
+
+/* small mobile :320px. */
+
+@media (max-width: 767px) {
+  
+  
+ button{
+     font-size: 2vh;
+ }
+    
+ .hotcold{
+     margin-top: 13vh;
+ }      
+       
+
+}
+   
+
+/* Large Mobile :480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .header1{
+        display: none;
+    }
+}
+

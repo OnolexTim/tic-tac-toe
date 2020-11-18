@@ -1,0 +1,153 @@
+header nav a {
+    text-transform: capitalize;
+    font-family: 'Montserrat' !important;
+}
+
+nav {
+    background-color: rgba(2, 2, 32, 0.945);
+}
+
+header nav ul li a {
+    color: #fff;
+    font-size: 23px;
+}
+
+header nav ul li:active {
+    text-decoration: underline;
+    color: rgb(250, 32, 12);
+}
+
+header nav ul li a:hover {
+    text-decoration: rgb(250, 32, 12);
+    border-color: #fff;
+}
+
+span {
+    color: rgb(250, 32, 12);
+    font-weight: bolder;
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+.navbar-brand {
+    font-weight: bolder;
+    color: #fff;
+}
+
+.navbar-toggler-icon {
+    font-weight: bolder;
+}
+
+.hero-header {
+    background-image: url("../img/adult-beautiful-elegant-eyewear-291762.jpg");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    content: "";
+    height: 100%;
+}
+
+.hero-text {
+    background-color: rgba(2, 2, 32, 0.5);
+    width: 100%;
+    background-repeat: no-repeat;
+    content: "";
+}
+
+#page {
+    padding-top: 35vw;
+    font-size: 15vw;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    font-family: 'Montserrat' !important;
+    font-weight: 1000vw;
+    color: #ffffff;
+}
+
+#page a {
+    font-weight: 1000px;
+    color: #ffffff;
+}
+
+.btn1 {
+    font-family: 'Montserrat' !important;
+    margin-bottom: 25vw;
+    font-size: 3.5vw;
+    background-color: red;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    border-radius: 10px;
+    display: flex;
+    margin-left: 18vw;
+    margin-right: 18vw;
+    margin-top: 10vw;
+}
+
+.text1 {
+    font-family: 'Montserrat' !important;
+    font-size: 5vw;
+}
+
+
+/*====== end of navbar========*/
+
+
+/*header responsive
+
+    * Normal desktop :1200px. */
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+    #page {
+        padding-top: 25vw;
+    }
+    .btn1 {
+        padding-bottom: 25vw;
+        font-size: 12vw;
+    }
+}
+
+
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    #page {
+        padding-top: 25vw;
+        font-size: 12vw;
+    }
+}
+
+
+/* Tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+
+/* small mobile :320px. */
+
+@media (max-width: 767px) {}
+
+
+/* Large Mobile :480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+.col-md-6 {
+    background-image: url("../img/fabric-scissors-needle-needles-scissors-461035.jpg");
+    background-size: 100%;
+    width: 100%;
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    content: "";
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    object-fit: cover;
+}
+
+
+}
