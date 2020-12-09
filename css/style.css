@@ -5,8 +5,7 @@ body{
 }
 .row{
     margin-top: 10vh;
-   margin-left: 10vw;
-   margin-right: 10vw;
+ justify-content: center;
     
 }
 .game{
@@ -16,13 +15,12 @@ body{
 }
 
 button{
-    margin-left: 25vw;
-    margin-right: 15vw;
-    font-size: 5vh;
+ margin-left: 40vw;
+ font-size:2vw;
 }
 
 input{
-    margin-left: 7vw;
+    margin-left: 20vw;
     margin-top: 7vw;
     font-size: 5vw;
 }
@@ -84,8 +82,7 @@ input{
   
     .row{
         margin-top: 10vh;
-       margin-left: 5vw;
-       margin-right: 5vw;
+      
        
         
     }
@@ -97,17 +94,16 @@ input{
         padding-right: 34vw;
         padding-bottom: 10vmax;
     }
-    
     button{
-        margin-left: 35vw;
-        font-size: 30px;
-    }
-    
-    input{
-        margin-left: 10vw;
-        margin-top: 7vw;
-        font-size: 40px;
-    }
+        margin-left: 40vw;
+        font-size:2vw;
+       }
+       
+       input{
+           margin-left: 20vw;
+           margin-top: 7vw;
+           font-size: 5vw;
+       }
     
     .hotcold{
         margin-top: 120px;
@@ -130,7 +126,7 @@ input{
     }
     
     .hot{
-        color:red;
+        color:#f73bbf;
         text-shadow: 30px;
     
     }
@@ -149,7 +145,7 @@ input{
  .hotcold{
      margin-top: 13vh;
  }      
-       
+ 
 
 }
    
@@ -158,8 +154,19 @@ input{
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
-    .header1{
-        display: none;
-    }
+  
+
+    button{
+        margin-left: 40vw;
+        font-size:2vw;
+       }
+       
+       input{
+           margin-left: 20vw;
+           margin-top: 7vw;
+           font-size: 5vw;
+       }
+
+      
 }
 
